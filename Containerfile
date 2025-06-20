@@ -1,5 +1,5 @@
 FROM    docker.io/redhat/ubi9:latest
-MAINTAINER      Deep Shah
+MAINTAINER     Manvir Singh
 RUN     yum install httpd -y
 RUN     mkdir -p /opt/incoming
 RUN     mkdir -p /opt/outgoing
